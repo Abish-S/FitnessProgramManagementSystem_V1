@@ -20,5 +20,10 @@ namespace FitnessProgramManagementSystem
             Duration = duration;
             Price = price;
         }
+
+        public override string ToString()
+        {
+            return $"fitnessProgramId: {FitnessProgramId}, Title: {Title}, Duration: {Duration}, Price: {Price}";
+        }
     }
 }
