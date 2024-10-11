@@ -12,5 +12,13 @@ namespace FitnessProgramManagementSystem
         public string Title { get; set; }
         public string Duration { get; set; }
         public string Price { get; set; }
+
+        public FitnessProgram(string fitnessProgramId, string title, string duration, string price)
+        {
+            FitnessProgramId = fitnessProgramId;
+            Title = title;
+            Duration = duration;
+            Price = price;
+        }
     }
 }
